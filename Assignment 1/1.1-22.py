@@ -8,7 +8,6 @@ n = 1000
 
 e = np.ones(n)
 
-
 diagonals = [-e, 2*e, -e]
 offsets = [-1, 0, 1]
 K = diags(diagonals, offsets, shape=(n, n), format='csr') 
